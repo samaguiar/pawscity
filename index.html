@@ -20,12 +20,12 @@
         </div>
     </header>
     <main>
-        <section class="branding">
+        <section class="branding wrap">
             <img class ="logo" src="logo/pawscity-logo.svg" alt="PawsCity Logo">
-            <form>
-                <input class="searchBar" a ria-label="Search" placeholder="SEARCH..." type="search">
+            <form class="search">
+                <input class="searchBar" type="text" placeholder="SEARCH...">
                 <button class="searchButton" type="submit"><img src="img/search-icon.svg" class="icon" ></button>
-              </form>
+            </form>
         </section>
         <section class="mainS">
             <nav>
@@ -48,27 +48,27 @@
             </div>
         </section>
         <section class="animals">
-            <div class="dogs">
+            <div class="dogs animal-child">
                 <h3>Dogs</h3>
                 <p>This is the title....</p>
                 <button type="submit">SHOP NOW</button>
             </div>
-            <div class="cats">
+            <div class="cats animal-child">
                 <h3>Cats</h3>
                 <p>This is the title....</p>
                 <button type="submit">SHOP NOW</button>
             </div>
-            <div class="fish">
+            <div class="fish animal-child">
                 <h3>Fish</h3>
                 <p>This is the title....</p>
                 <button type="submit">SHOP NOW</button>
             </div>
-            <div class="birds">
+            <div class="birds animal-child">
                 <h3>Birds</h3>
                 <p>This is the title....</p>
                 <button type="submit">SHOP NOW</button>
             </div>
-            <div class="reptiles">
+            <div class="reptiles animal-child">
                 <h3>Reptiles</h3>
                 <p>This is the title....</p>
                 <button type="submit">SHOP NOW</button>
@@ -84,39 +84,40 @@
             Wrinkler boofers porgo corgo bork much 
             ruin diet, aqua doggo. 
             </p>
+            <img src="img/doggo-photo.png">
         </section>
-        <section>
-            <div>
-                <h3>Top Recommednations</h3>
+        <section class="recommendations">
+            <div class="rec-child">
+                <h3>Top Recommendations</h3>
                 <p> Top-selling items and popular picks by our
                 customers. Check them out now!</p>
             </div>
-            <div>
+            <div class="rec-child">
                 <img src="img/elf.jpg">
                 <h4>Elf Costume</h4>
                 <p>$29.99</p>
                 <button>Add to Cart</button>
             </div>
-            <div>
+            <div class="rec-child">
                 <img src="img/fries.jpg">
                 <h4>French Fries Sweater</h4>
                 <p>$29.99</p>
                 <button>Add to Cart</button>
             </div>
-            <div>
+            <div class="rec-child">
                 <img src="img/anti-social.jpg">
                 <h4>Anti-Social Puppy Club Sweater</h4>
                 <p>$29.99</p>
                 <button>Add to Cart</button>
             </div>
-            <div>
+            <div class="rec-child">
                 <img src="img/tent.jpg">
                 <h4>Doggo Tent</h4>
                 <p>$59.99</p>
                 <button>Add to Cart</button>
             </div>
         </section>
-        <section>
+        <section class="aboutPaws">
             <img src="img/about-pawscity.jpg">
             <h3>About Paws City Pet Supply Co.</h3>
             <p>Paws City is a fine retalier that offers goods for you pets:
@@ -126,39 +127,43 @@
                 just like you, and pick only the best and high-quality goods. 
             </p>
         </section>
-        <section>
+        <section class="testimonial">
             <h3>Testimonials by our clients</h3>
             <p>We're happy each review you leave! Thank you for your trust.</p>
-            <img src="img/testimonial-elaineb.jpg">
+            <div class="elaine"> 
+                <img src="img/testimonial-elaineb.jpg">
+                <p>"I often order food for my cat form this store as they offer free shipping. The prices here are quite low, and you can order a lot of great goods by top manufactures."</p>
+                <h4>Elaine Bennett</h4>
+            </div>
         </section>
     </main>
 
     <footer>
-        <div>
+        <div class="footChild">
             <h3>Corporate</h3>
             <h4>1234 W. Main St.</h4>
             <h4>Louisville, KY 40213</h4>
             <h4>P: 502-555-5555</h4>
             <h4>E: hello@pawscity.com</h4>
         </div>
-        <div>
+        <div class="footChild">
             <h3>Social</h3>
             <img src="#"><p>facebook</p>
             <img src="#"><p>twitter</p>
             <img src="#"><p>linkenin</p>
             <img src="#"><p>google account</p>
         </div>
-        <div>
+        <div class="footChild contactForm">
             <h3>Contact</h3>
             <h5>Name:</h5>
-            <input class="" a ria-label="Text" placeholder="JOHN DOE" type="text">
+            <input  a ria-label="Text" placeholder="JOHN DOE" type="text">
             <h5>Email:</h5>
-            <input class="" a ria-label="Email" placeholder="jdoe@gmail.com" type="email">
+            <input a ria-label="Email" placeholder="jdoe@gmail.com" type="email">
             <h5>Message:</h5>
-            <input class="" a ria-label="Text" placeholder="Please send us a message..." type="text"> <br>
-            <button class="" type="submit">Send a Message!</button>
+            <input class="message" a ria-label="Text" placeholder="Please send us a message..." type="text"> <br>
+            <button type="submit">Send a Message!</button>
         </div>
-        <div>
+        <div class="footChild copyright">
             <p>Copyright 2021 Paws city pet supply co.</p>
             <p>privacy policy</p>
         </div>
