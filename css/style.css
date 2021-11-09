@@ -359,6 +359,7 @@ ABOUT PAWS CITY
 .aboutPaws img{ 
     width: 100%;
     padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .aboutPaws h3, .aboutPaws p{
@@ -495,6 +496,71 @@ footer h5{
     justify-content: space-between;
     max-width: 500px;
 }
+
+/*----
+MEDIA QUERRIES
+----*/
+
+@media only screen and (min-width: 768px){
+    .animals{
+      padding:30px 0;
+    }
+
+    .flex-animal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .dogs, .cats, .fish, .birds, .reptiles{
+        width: 50%;
+        margin-bottom: 30px;
+        
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+    .about-child{
+        max-width: 500px;
+    }
+
+    .recommendations{ 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rec-parent{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rec-child{
+        padding: 0 10px;
+    }
+
+    .aboutPaws-child{
+        max-width: 600px;
+    }
+
+    footer{ 
+        align-items: center;
+    }
+
+    .social{
+        justify-content:space-evenly;
+    }
+    
+    footer p, footer h3, footer h4{
+        text-align: center;
+    }
+    
+}/*end media query*/
 
 
 
