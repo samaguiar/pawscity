@@ -105,6 +105,7 @@ button#hamburgerBtn{
 nav ul {
     margin: 0;
     padding: 0;
+    
     }
     
 nav li {
@@ -470,9 +471,9 @@ footer h5{
     align-items: left;
     width: 100%;
     padding: 0 30px;
-    max-width: 500px;
-    
+    max-width: 600px;
 }
+
 .contactForm button{
     padding: 10px 30px;
     background-color: #FF8C00;
@@ -509,16 +510,16 @@ MEDIA QUERRIES
     .flex-animal{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-content: center;
     }
 
     .dogs, .cats, .fish, .birds, .reptiles{
         width: 50%;
-        margin-bottom: 30px;
-        
+        margin-bottom: 30px; 
     }
     
+
     .about-child{
         max-width: 500px;
     }
@@ -526,6 +527,7 @@ MEDIA QUERRIES
     .recommendations{ 
         display: flex;
         flex-direction: column;
+
     }
     
     .rec-parent{
@@ -551,6 +553,10 @@ MEDIA QUERRIES
     
     footer p, footer h3, footer h4{
         text-align: center;
+    }
+
+    .contactForm{
+        max-width: 100%;
     }
     
 }/*end media query*/
@@ -612,6 +618,7 @@ MEDIA QUERRIES
         flex-direction: column;
         margin: 50px 0;
     }
+
 }/*end of media query*/
 
 
