@@ -519,13 +519,6 @@ MEDIA QUERRIES
         
     }
     
-    .about{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: center;
-    }
-    
     .about-child{
         max-width: 500px;
     }
@@ -562,5 +555,63 @@ MEDIA QUERRIES
     
 }/*end media query*/
 
+@media only screen and (min-width: 1024px){
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+    nav button {
+        display:none;
+    }
+    nav ul{
+        display: block; 
+        margin-left: 0vw;
+        
+    }
+    
+    nav li {
+        float: left;
+        width: 20%;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li{
+        font-size: 20px;
+        
+    }
+
+    .homeNav{
+        background-color: #003964;
+    }
+    .aniNav {
+        background-color:#F85C62;
+    }
+
+    .aboutiNav{
+        background-color:#3f9ce0;
+    }
+
+    .shopNav{
+        background-color: #39B173;
+    }
+
+    .contactNav{
+        background-color: #a570db;
+    }
+
+    .aboutPaws{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .aboutPaws-child{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+}/*end of media query*/
 
 
