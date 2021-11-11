@@ -11,3 +11,7 @@ I have also reorganized the About Doggo section. This goes from
 a 1 column grid on mobile and tablet to a 2 column grid on desktop. This is the same style and use of media queries for the About Paws City section. 
 
 The naviation/hamburger button will hide when moving to a desktop view using media queries (located under the header). The hamburger button uses Java Script to open/close on click for mobile and desktop verisons. 
+
+On the desktop verison, I also added CSS to change the list items to change color when covered over. 
+
+On all versions, I used CSS to change the cursor to a pointer on any clickable item. 

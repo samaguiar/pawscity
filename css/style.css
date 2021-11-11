@@ -185,6 +185,7 @@ HERO SECTION
     padding: 15px 40px;
     border: none;
     font-size: 18px;
+    cursor: pointer;
 }
 
 
@@ -196,8 +197,9 @@ ANIMAL PRODUCTS
     background-color: grey;
     display: flex;
     flex-direction: column;
-    justify-content: bottom;
+    /*justify-content: bottom;*/
     align-items: left;
+    
 }
 
 .animals button {
@@ -208,6 +210,7 @@ ANIMAL PRODUCTS
     color:#ffffff;
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .animals h3, .animals p {
@@ -225,7 +228,7 @@ ANIMAL PRODUCTS
     background-size: cover;
     width: 100%;
     max-width: 500px;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto; /*centers image*/
 }
 
@@ -234,7 +237,7 @@ ANIMAL PRODUCTS
     background-size: cover;
     width: 100%;
     max-width: 500px;
-    height: 80vh;
+    height: 90vh;
     margin: 0 auto; /*centers image*/
 }
 
@@ -456,6 +459,7 @@ footer h3{
 footer h5{
     margin: 10px 0;
 }
+
 .copyright{
     background-color: #003964;
     width: 100%;
@@ -495,8 +499,13 @@ footer h5{
     flex-direction: row;
     padding: 0 30px;
     justify-content: space-between;
-    max-width: 500px;
+    max-width: 700px;
 }
+
+/*.message{
+    height: 100px;
+    vertical-align: text-top;
+}*/
 
 /*----
 MEDIA QUERRIES
