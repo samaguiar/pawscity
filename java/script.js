@@ -4,3 +4,7 @@ function toggleMenu() {
 let x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu; 
 
+function validateForm(){
+
+    alert("it worked");
+}

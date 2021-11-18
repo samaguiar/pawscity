@@ -174,21 +174,29 @@
                     <a href="https://www.freepnglogos.com/pics/google-plus-png-logo" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/google-plus-png-logo/google-plus-blue-png-logo-10.png" width="50" alt="google plus blue png logo" /></a>
                 </section>
         </div>
+        <div>
         <h3>Contact</h3>
-        <div class="footChild contactForm">
-            <h5>Name:</h5>
-            <input  a ria-label="Text" placeholder="JOHN DOE" type="text">
-            <h5>Email:</h5>
-            <input a ria-label="Email" placeholder="jdoe@gmail.com" type="email">
-            <h5>Message:</h5>
-            <input class="message" a ria-label="Text" placeholder="Please send us a message..." type="text"> <br>
-            <button type="submit">Send a Message!</button>
-        </div>
-        </section>
-        <div class="footChild copyright">
-            <p>&copy;2021 Paws city pet supply co.</p>
-            <p>privacy policy</p>
-        </div>
+        <form name="myForm" action="formProcessor.html" method="post" onsubmit="return validateForm()">
+            <!--<section id="formPromplems" class="">
+                <p>There was a problem with your submission. <br> Errors 
+                have been highlighted below.</p>
+            </section>-->
+            <div class="footChild contactForm">
+                <h5>Name:</h5>
+                <input  a ria-label="Text" placeholder="JOHN DOE" type="text">
+                <h5>Email:</h5>
+                <input a ria-label="Email" placeholder="jdoe@gmail.com" type="email">
+                <h5>Message:</h5>
+                <input class="message" a ria-label="Text" placeholder="Please send us a message..." type="text"> <br>
+                <button type="submit">Send a Message!</button>
+            </div>
+            </div>
+            </section>
+            <div class="footChild copyright">
+                <p>&copy;2021 Paws city pet supply co.</p>
+                <p>privacy policy</p>
+            </div>
+        </form>
     </footer>
     <script src="java/script.js"></script>
 </body>
